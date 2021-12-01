@@ -1,0 +1,43 @@
+.cardbody{
+    border:rgb(5, 1, 5) solid 2px ;
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+    background-color: rgb(123, 128, 136);
+}
+h4{
+    color: firebrick;
+}
+s{
+    color: greenyellow;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+button{
+    margin: 1%;
+    padding: 2%;
+    background-color: rgb(27, 128, 128);
+    color: black;
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .cardbody{
+        width: 90%;
+        font-size: 55%;
+        font-style: italic;
+        background-color: rgb(97, 56, 42);
+    }
+    
+}
+@media only screen and (min-width:520px) and (max-width:720px) {
+    .cardbody{
+        width: 90%;
+        font-size: 75%;
+        font-style: normal;
+        background-color:green;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+    }
